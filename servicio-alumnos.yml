@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/alumnoscursos
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+server:
+  port: 8001
+  servlet:
+    context-path: /escuela
+security:
+  db:
+    driver: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/springsecurity
+    user: root
+    password: root
