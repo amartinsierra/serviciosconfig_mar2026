@@ -20,3 +20,8 @@ security:
     user: root
     password: root
 test: Mensaje original
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
