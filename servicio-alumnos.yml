@@ -19,3 +19,4 @@ security:
     url: jdbc:mysql://localhost:3307/springsecurity
     user: root
     password: root
+test: Mensaje original
