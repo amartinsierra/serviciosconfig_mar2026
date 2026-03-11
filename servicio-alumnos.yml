@@ -19,7 +19,7 @@ security:
     url: jdbc:mysql://localhost:3307/springsecurity
     user: root
     password: root
-test: Cambio el mensaje original por otro
+test: nuevo mensaje
 management:
   endpoints:
     web:
